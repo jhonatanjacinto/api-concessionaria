@@ -1,1 +1,22 @@
-[]
+[
+    {
+        "id": "889af4a9667b855d1913729d693033f6",
+        "marca": "Chevrolet",
+        "modelo": "Onix",
+        "ano": 2014,
+        "preco": 16000,
+        "foto": "https://media.gm.com/content/Pages/news/br/pt/2018/sep/0904-onix/_jcr_content/top_parsys/image.img.jpg/1536161364054.jpg",
+        "cor": "Cinza",
+        "descricao": "Chevrolet Ônix LT\nAno 2014\nMotor 1.0 câmbio manual\nMy Link\nCompleto + Rack de teto\n\n-Aceitamos o seu carro ou sua moto na troca.\n-Realizamos financiamento em até 60 meses. (Consulte os planos)"
+    },
+    {
+        "id": "0b4739b333cb913a17f5e4ef4243362f",
+        "marca": "Chevrolet",
+        "modelo": "Prisma",
+        "ano": 2016,
+        "preco": 57900,
+        "foto": "https://images.noticiasautomotivas.com.br/img/f/Chevrolet-Prisma-Advantage-2018-2.jpg",
+        "cor": "Preto",
+        "descricao": "Ano: 2016\nTipo de combustível: Gasolina e Álcool\nMotor: 1.4\nQuilômetros: 89.000 km\nTransmissão: Automática\nFinanciamento até 80x.\nOpções de parcelamento por empresa privada.\nMAIORES INFORMAÇÕES SOBRE O VEÍCULO PELO WHATSAPP (71) 9838... ver número\n*TRABALHO COM ENTRADA+PARCELAS\nENTRADA A PARTIR: 2.500,00\nPARCELAS: A COMBINAR\nFACILITO PARA AUTÔNOMO E NEGATIVADO*"
+    }
+]

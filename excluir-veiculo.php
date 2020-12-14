@@ -23,7 +23,7 @@ try
         }
 
         $veiculos_json = file_get_contents(__DIR__ . '/db/veiculos.json');
-        $lista_veiculos = json_decode($veiculos_json);
+        $lista_veiculos = (array)json_decode($veiculos_json);
         $index_veiculo = null;
 
         foreach ($lista_veiculos as $index => $veiculo)

@@ -24,19 +24,9 @@ try
 
         $veiculos_json = file_get_contents(__DIR__ . '/db/veiculos.json');
         $lista_veiculos = (array)json_decode($veiculos_json);
-        $index_veiculo = null;
-
-        foreach ($lista_veiculos as $index => $veiculo)
-        {
-            if ($veiculo->id === $id) {
-                $index_veiculo = $index;
-                break;
-            }
-        }
-
-        if ($index_veiculo) {
-            unset($lista_veiculos[$index_veiculo]);
-        }
+        $lista_veiculos = array_filter($lista_veiculos, function($veiculo) use($id) {
+            return $veiculo->id != $id;
+        });
         
         $veiculos_json = json_encode($lista_veiculos);
         file_put_contents(__DIR__ . '/db/veiculos.json', $veiculos_json);

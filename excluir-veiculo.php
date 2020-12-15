@@ -55,7 +55,7 @@ catch(Exception $e)
     http_response_code($status_code);
     echo json_encode(
         (object)array(
-            'status' => '0',
+            'status' => 0,
             'message' => $e->getMessage()
         )
     );

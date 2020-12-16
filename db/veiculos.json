@@ -28,5 +28,25 @@
         "foto": "https://img.olx.com.br/images/60/606024103718503.jpg",
         "cor": "Preto",
         "descricao": "Ano: 2016\nTipo de combustível: Gasolina e Álcool\nMotor: 1.4\nQuilômetros: 89.000 km\nTransmissão: Automática\nFinanciamento até 80x.\nOpções de parcelamento por empresa privada."
+    },
+    {
+        "id": "237e6d0805c38635d0d832512c21f2ac",
+        "marca": "Chevrolet",
+        "modelo": "Onix",
+        "ano": 2015,
+        "preco": 32000,
+        "foto": "https://media.gm.com/content/Pages/news/br/pt/2018/sep/0904-onix/_jcr_content/top_parsys/image.img.jpg/1536161364054.jpg",
+        "cor": "Prata",
+        "descricao": "Seminovo"
+    },
+    {
+        "id": "9244152a6a601b6cfd055b7b500fdf70",
+        "marca": "Chevrolet",
+        "modelo": "Onix",
+        "ano": 2015,
+        "preco": 32000,
+        "foto": "https://media.gm.com/content/Pages/news/br/pt/2018/sep/0904-onix/_jcr_content/top_parsys/image.img.jpg/1536161364054.jpg",
+        "cor": "Prata",
+        "descricao": "Seminovo"
     }
 ]

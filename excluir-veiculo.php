@@ -24,9 +24,11 @@ try
 
         $veiculos_json = file_get_contents(__DIR__ . '/db/veiculos.json');
         $lista_veiculos = (array)json_decode($veiculos_json);
-        $lista_veiculos = array_filter($lista_veiculos, function($veiculo) use($id) {
-            return $veiculo->id != $id;
-        });
+        $lista_veiculos = array_values(
+            array_filter($lista_veiculos, function($veiculo) use($id) {
+                return $veiculo->id != $id;
+            })
+        );
         
         $veiculos_json = json_encode($lista_veiculos);
         file_put_contents(__DIR__ . '/db/veiculos.json', $veiculos_json);

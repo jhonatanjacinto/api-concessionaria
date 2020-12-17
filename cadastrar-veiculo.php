@@ -50,7 +50,8 @@ try
         echo json_encode(
             (object)array(
                 'status' => 1,
-                'message' => 'Veículo cadastrado com sucesso!'
+                'message' => 'Veículo cadastrado com sucesso!',
+                'veiculo' => $dados_veiculo
             )
         );
     }

@@ -63,7 +63,8 @@ try
         echo json_encode(
             (object)array(
                 'status' => 1,
-                'message' => 'Veículo atualizado com sucesso!'
+                'message' => 'Veículo atualizado com sucesso!',
+                'veiculo' => $dados_veiculo
             )
         );
     }
